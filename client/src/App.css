@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.authors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.books {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.magazines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.elements {
+  margin: 20px;
+  padding: 15px;
+  min-width: 300px;
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.elements > li {
+  margin: 10px;
+}
+
+.search {
+  margin: 20px;
+}
+
+.search > input {
+  padding: 10px;
+  border: 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.sortdata {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.elementssort {
+  margin: 20px;
+  padding: 15px;
+  width: 93vw;
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.elementssort > li {
+  margin: 10px;
+}
+
+.note {
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.outer {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.displayCode {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.headings {
+  text-align: center;
+}
